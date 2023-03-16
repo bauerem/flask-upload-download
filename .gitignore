@@ -1,3 +1,7 @@
+# Exlcude these folders
 /__pycache__
 /static/files/*
 /venv
+
+# Except these files
+!static/files/.gitkeep
