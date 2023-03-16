@@ -9,5 +9,7 @@ Usually, the files are processed inbetween uploading and downloading.
 ## Setup
 	git clone git@github.com:bauerem/flask-upload-download.git
 	cd flask-upload-download
+	python3 -m venv venv
+	. venv/bin/activate
 	pip install -r requirements.txt
 	flask run
